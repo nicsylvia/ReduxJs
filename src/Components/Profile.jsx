@@ -7,10 +7,10 @@ const Profile = () => {
   return (
     <div>
         <h2>User</h2>
-        <div>UserName: {user.userName} </div>
-        <div>Age: {user.Age} </div>
-        <div>Email: {user.email} </div>
-        <div>Stack: {user.stack} </div>
+        <div>UserName: {user?.userName} </div>
+        <div>Age: {user?.Age} </div>
+        <div>Email: {user?.email} </div>
+        <div>Stack: {user?.stack} </div>
     </div>
   )
 }
